@@ -86,8 +86,8 @@
         //│ UNDO     │ CUT      │ COPY     │ PASTE    │ SHIFT TAB│   │ ,        │ 1        │ 2        │ 3        │ .        │
             &kp K_UNDO &kp K_CUT  &kp K_COPY &kp K_PASTE &trans      &kp KP_COMMA &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-        //                                 │          │          │   │          │ ESC      │
-                                             &trans     &trans         &trans     &kp ESC
+        //                                 │ DEL      │          │   │          │ ESC      │
+                                             &kp DEL    &trans         &trans     &kp ESC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
